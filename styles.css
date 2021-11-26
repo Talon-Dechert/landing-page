@@ -23,7 +23,7 @@ body {
 .four {
     display: flex;
     padding: 12px 100px;
-    min-height: 25%;
+    flex: 1 1 25%;
 }
 
 .headLeft {
@@ -47,15 +47,13 @@ body {
 }
 
 .one {
-    justify-self: center;
-    flex-grow: 1;
     padding: 100px;
+    justify-content: center;
 }
 
-.heroRight {
-    flex-shrink: 0;
-    background-color: #78808f;
-    align-self: stretch;
+.one > * {
+    flex-basis: 100%;
+    max-width: 400px;
 }
 
 .hypeText {
@@ -72,6 +70,11 @@ body {
 .heroSignup,
 .callToAction {
     background-color: #3882F6;
+}
+
+.heroImg {
+    height: auto;
+    width: 400px;
 }
 
 .infoText {
