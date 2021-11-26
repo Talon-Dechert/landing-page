@@ -88,10 +88,26 @@ body {
     width: 450px;
 }
 
+.two {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
 .infoText {
+    flex-basis: 100%;
     font-size: 36px;
     font-weight: 800;
     color: #1F2937
+}
+
+.infoGraphic {
+    flex-basis: 25%;
 }
 
 .subText {
