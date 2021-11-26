@@ -1,17 +1,29 @@
-* {
+.content {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header,
-.one {
+.one,
+.footer {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    align-items: center;
 }
 
 .headLogo {
+    margin: 0;
+    margin-right: auto;
+    padding: 0;
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.headLink {
+    margin: 10px;
 }
 
 .hypeText {
@@ -20,6 +32,26 @@
     color: #F9FAF8;
 }
 
+.heroSignup,
+.callToAction {
+    background-color: #3882F6;
+}
+
+.infoText {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937
+}
+
+.subText {
+    font-size: 18px;
+    color: #1F2937;
+}
+
 .three {
     background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
 }
