@@ -1,7 +1,8 @@
-.content {
+body {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header,
@@ -14,9 +15,21 @@
     align-items: center;
 }
 
+.header,
+.one,
+.two,
+.three,
+.four,
+.footer {
+    padding: 12px 100px;
+}
+
+.headLeft {
+    flex-grow: 2;
+}
+
 .headLogo {
     margin: 0;
-    margin-right: auto;
     padding: 0;
     font-size: 24px;
     color: #F9FAF8;
