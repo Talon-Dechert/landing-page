@@ -50,6 +50,7 @@ body {
     padding: 100px;
     justify-content: center;
     align-items: stretch;
+    gap: 50px;
 }
 
 .one > * {
