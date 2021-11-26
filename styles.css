@@ -1,6 +1,25 @@
+* {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .header,
 .one {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.headLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hypeText {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.three {
+    background-color: #E5E7EB;
 }
