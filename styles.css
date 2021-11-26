@@ -2,6 +2,7 @@ body {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: stretch;
     margin: 0;
 }
 
@@ -11,17 +12,18 @@ body {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
-    display: flex;
     align-items: center;
+    display: flex;
+    padding: 12px 100px;
 }
 
-.header,
 .one,
 .two,
 .three,
-.four,
-.footer {
+.four {
+    display: flex;
     padding: 12px 100px;
+    min-height: 25%;
 }
 
 .headLeft {
@@ -44,10 +46,27 @@ body {
     text-decoration: underline;
 }
 
+.one {
+    justify-self: center;
+    flex-grow: 1;
+    padding: 100px;
+}
+
+.heroRight {
+    flex-shrink: 0;
+    background-color: #78808f;
+    align-self: stretch;
+}
+
 .hypeText {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 0;
+}
+
+.hypeSubtext {
+    margin: 0;
 }
 
 .heroSignup,
@@ -72,4 +91,8 @@ body {
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
+}
+
+.footer {
+    justify-content: center;
 }
