@@ -37,6 +37,11 @@ body {
 
 .headLink {
     margin: 10px;
+    text-decoration: none;
+}
+
+.headLink.hover {
+    text-decoration: underline;
 }
 
 .hypeText {
