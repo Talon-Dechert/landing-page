@@ -135,6 +135,24 @@ body {
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
+    height: 427px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    margin: 0 20%;
+}
+
+.testiAuthor {
+    align-self: flex-end;
+    margin: 0 20%;
+    padding: 0;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bold;
 }
 
 .footer {
