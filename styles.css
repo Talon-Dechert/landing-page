@@ -27,18 +27,16 @@ body {
 }
 
 .header {
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .headLeft {
-    flex-grow: 2;
-    flex-shrink: 1;
     max-width: 450px;
     margin-left: 120px
 }
 
 .headRight {
-    width: 450px;
+    max-width: 450px;
     flex-wrap: nowrap;
     flex-basis: 50%;
 }
