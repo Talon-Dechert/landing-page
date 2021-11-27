@@ -104,8 +104,8 @@ body {
 .two {
     justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
-    align-content: center;
+    align-items: flex-start;
+    height: 500px;
 }
 
 .infoText {
@@ -115,13 +115,17 @@ body {
     align-self: flex-start;
     text-align: center;
     font-weight: bolder;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .information {
     display: flex;
     gap: 50px;
     justify-content: center;
+    align-items: flex-start;
     max-width: 500px;
+    margin-top: 0;
 }
 
 .blueBorder {
