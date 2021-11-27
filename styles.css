@@ -161,11 +161,11 @@ body {
 }
 
 .callToAction {
-    margin: 0 10%;
+    margin: 0 16%;
     flex-basis: 100%;
     display: flex;
     align-items: center;
-    padding: 40px 80px;
+    padding: 50px 60px;
     justify-content: space-around;
     border-radius: 10px;
 }
