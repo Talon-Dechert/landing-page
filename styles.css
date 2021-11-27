@@ -95,24 +95,38 @@ body {
     align-content: center;
 }
 
-ul {
-    list-style-type: none;
-}
-
 .infoText {
     flex-basis: 100%;
     font-size: 36px;
-    font-weight: 800;
-    color: #1F2937
+    color: #1F2937;
+    align-self: flex-start;
+    text-align: center;
+    font-weight: bolder;
 }
 
-.infoGraphic {
-    flex-basis: 25%;
+.information {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    max-width: 500px;
 }
+
+.blueBorder {
+    border: solid #3882F6 4px;
+    width: 170px;
+    height: 170px;
+    border-radius: 20px;
+}
+
 
 .subText {
     font-size: 18px;
     color: #1F2937;
+    text-align: center;
+}
+
+.subText > p {
+    margin: 10px 0;
 }
 
 .three {
